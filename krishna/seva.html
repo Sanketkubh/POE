@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Seva & Register — Kids Bhakti</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="page-seva">
+  <header class="site-header">
+    <div class="brand">
+      <svg class="feather" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 60c8-12 20-28 18-38-2-10-10-12-18-8S18 10 16 20c-2 10 10 26 16 40z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="24" r="6" fill="currentColor"/></svg>
+      <h1>Seva & Join</h1>
+    </div>
+    <nav>
+      <a href="home.html" class="active">Home</a>
+      <a href="about.html">About Krishna</a>
+      <a href="seva.html" class="active">Seva & Join</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="block">
+      <h2>Join the Chant Circle</h2>
+      <p>Fill the simple form to register for the weekly chanting and kids sessions.</p>
+
+      <form class="join-form" onsubmit="event.preventDefault(); alert('Thank you for registering — Hari Bol!');">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Age <input type="number" name="age" min="3" max="18"></label>
+        <label>Parent / Guardian Contact <input type="tel" name="phone"></label>
+        <button class="btn">Register</button>
+      </form>
+    </section>
+
+    <section class="block small">
+      <h3>Quick Sadhana Tips</h3>
+      <ul>
+        <li>Morning chant: 5 minutes — simple bhajan</li>
+        <li>Reading: 1 short Krishna story daily</li>
+        <li>Seva: help in home altar care once a week</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Kids Bhakti • Sanket Kumbhar</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
