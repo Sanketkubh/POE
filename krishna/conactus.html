@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Krishna Divine World</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #d9e4f5, #fef6e4);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #002b5b;
+      color: #fff;
+      text-align: center;
+      padding: 25px 10px;
+      animation: fadeInDown 1.2s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #f4d03f;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+      gap: 40px;
+    }
+
+    .contact-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 400px;
+      animation: slideUp 1s ease-in-out;
+    }
+
+    .contact-card h2 {
+      color: #002b5b;
+      margin-bottom: 15px;
+    }
+
+    .contact-card p {
+      color: #444;
+      font-size: 15px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s ease;
+      font-family: inherit;
+    }
+
+    form input:focus, form textarea:focus {
+      border-color: #002b5b;
+    }
+
+    form button {
+      background-color: #002b5b;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #f4d03f;
+      color: #002b5b;
+    }
+
+    .image-section img {
+      width: 350px;
+      border-radius: 16px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      animation: float 3s infinite ease-in-out;
+    }
+
+    footer {
+      background-color: #002b5b;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes slideUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Contact Krishna Divine World</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-card">
+      <h2>Send us a Message</h2>
+      <p>Have questions about bhakti, events, or spiritual guidance? Reach out with love and devotion.</p>
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="image-section">
+      <img src="https://cdn.pixabay.com/photo/2021/06/12/10/53/krishna-6328842_1280.png" alt="Lord Krishna Image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>✨ Hare Krishna ✨ | © 2025 Krishna Divine World</p>
+  </footer>
+
+</body>
+</html>
